@@ -11,8 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
-        Schema::create('car_owners', function (Blueprint $table){
+        Schema::create('car_owners', function (Blueprint $table) {
             $table->id();
             $table->string('color');
             $table->string('mark');
@@ -20,7 +19,7 @@ return new class extends Migration
             $table->string('type'); 
             $table->string('state');    
             $table->string('type_of_failure');
-            $table->int('id_validation')->unique();
+            $table->timestamps();
         });
     }
 
@@ -29,7 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
         Schema::dropIfExists('car_owners');
     }
 };
