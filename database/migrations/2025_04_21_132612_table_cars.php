@@ -12,6 +12,17 @@ return new class extends Migration
     public function up(): void
     {
         //
+        Schema::create('cars', function (Blueprint $table){
+            $table->id();
+            $table->string('color');
+            $table->string('mark');
+            $table->string('model');
+            $table->string('year');
+            $table->string('price');
+            $table->string('mileage');
+            $table->string('engine');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -20,5 +31,6 @@ return new class extends Migration
     public function down(): void
     {
         //
+        Schema::dropIfExists('cars');
     }
 };

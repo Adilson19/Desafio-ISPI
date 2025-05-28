@@ -12,6 +12,15 @@ return new class extends Migration
     public function up(): void
     {
         //
+        Schema::create('service', function(Blueprint $table){
+            $table->id();
+            $table->string('car_id');
+            $table->string('service_type');
+            $table->string('service_date');
+            $table->string('cost');
+            $table->string('description');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -20,5 +29,6 @@ return new class extends Migration
     public function down(): void
     {
         //
+        Schema::dropIfExists('service');
     }
 };
