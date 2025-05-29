@@ -12,7 +12,5 @@
         <input type="text" name="password" placeholder="Password"><br/>
         <button type="submit">Login</button>
     </form>
-
-
 </body>
 </html>
