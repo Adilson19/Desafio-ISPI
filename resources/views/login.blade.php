@@ -7,8 +7,12 @@
 </head>
 <body>
     <label>Fazer Login</label>
-    <input type="text" name="username" placeholder="Username">
-    <input type="text" name="password" placeholder="Password">
-    <button type="submit">Login</button>
+    <form bindsubmit="">
+        <input type="text" name="username" placeholder="Username"><br/>
+        <input type="text" name="password" placeholder="Password"><br/>
+        <button type="submit">Login</button>
+    </form>
+
+
 </body>
 </html>

@@ -7,6 +7,12 @@
     <title>Subscribe</title>
 </head>
 <body>
-    
+    <label>Digite o seu nome:</label>
+        <form bindsubmit="" method="">
+            <input type="text" placeholder="Digite o seu nome" class="name-input"><br/>
+            <input type="text" placeholder="Digite o seu email" class="email-input"><br/>
+            <input type="password" placeholder="Digite a sua senha" class="password-input"><br/>
+            <button type="submit">Enviar</button>
+        </form>
 </body>
 </html>
