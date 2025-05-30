@@ -10,8 +10,11 @@
 </head>
 <body>
     <header>
-        <h1>Seja Bem Vindo ao Sistema de Gestao de Oficinas</h1>
+        <h1>Seja Bem Vindo ao SGO</h1>
+        <p>O Sistema de Gestão de Oficinas (SGO) é uma plataforma desenvolvida para auxiliar na gestão de oficinas, oferecendo funcionalidades para o controle de orçamentos, cronogramas e relatórios.</p>
+        <button class="">Clique aqui</button>
     </header>
+
     <aside></aside>
     <section></section>
 </body>
