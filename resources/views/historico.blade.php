@@ -10,8 +10,11 @@
         <thead>
             <tr>
                 <th>N de Cliente</th>
-                <th>Nome</th>
-                <th>Sobrenome</th>
+                <th>Nome Completo</th>
+                <th>Email</th>
+                <th>Senha</th>
+                <th>Morada</th>
+                <th>Telefone</th>
             </tr>
         </thead>
     </table>
