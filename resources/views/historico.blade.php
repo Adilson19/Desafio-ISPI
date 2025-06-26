@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="1" style="width: 100%; border-collapse: collapse;">
+    <table style="width: 100%; border: 1; border-collapse: collapse;">
         <thead>
             <tr>
                 <th>N de Cliente</th>
@@ -18,7 +18,7 @@
             </tr>
         </thead>
         <tbody>
-            
+
         </tbody>
     </table>
 </body>
