@@ -8,7 +8,9 @@
 <body>
     <label>Fazer Login</label>
     <form bindsubmit="">
+        <label>Nome do usuario</label>
         <input type="text" name="username" placeholder="Username"><br/>
+        <label>Palavra passe</label>
         <input type="text" name="password" placeholder="Password"><br/>
         <button type="submit">Login</button>
     </form>

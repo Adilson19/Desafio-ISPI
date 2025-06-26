@@ -12,6 +12,7 @@
             <input type="text" placeholder="Digite o seu nome" class="name-input"><br/>
             <input type="text" placeholder="Digite o seu email" class="email-input"><br/>
             <input type="password" placeholder="Digite a sua senha" class="password-input"><br/>
+            <input type="date"/>
             <button type="submit">Enviar</button>
         </form>
 </body>
