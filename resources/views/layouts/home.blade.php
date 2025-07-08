@@ -30,5 +30,9 @@
 								</ul>
 							</div>
 						</div>
+
+                        <div>
+                            @include('includes.body');
+                        </div>
 </body>
 </html>
