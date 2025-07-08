@@ -9,14 +9,26 @@
     <script src="{{ asset('assets/js/script.js') }}"></script>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Seja Bem Vindo ao SGO</h1>
-            <p>O Sistema de Gestão de Oficinas (SGO) é uma plataforma desenvolvida para auxiliar na gestão de oficinas, oferecendo funcionalidades para o controle de orçamentos, cronogramas e relatórios.</p>
-            <button class="">Clique aqui</button>
-        </header>
-        <aside></aside>
-        <section></section>
-    </div>
+    <div class="header_row__1">
+		<div class="page_container">
+			<div class="container">
+				<div class="header_left">
+						<ul class="header_links">
+							<li>
+								<a href="https://theme642-kardone-free.myshopify.com/account"><i class="fa fa-user" aria-hidden="true"></i>Minha Conta</a>
+							</li>
+						</ul>
+				</div>
+				<div class="header_right">
+						<div class="currency_selector">
+							<div class="currency_selector__wrap">
+								<div id="currency_active">USD</div>
+								<ul id="currency_selector">
+									<li data-value="USD" id="currency_selected" class="currency_selector__item">USD</li>
+											<li data-value="EUR" class="currency_selector__item">EUR</li>
+											<li data-value="GBP" class="currency_selector__item">GBP</li>
+								</ul>
+							</div>
+						</div>
 </body>
 </html>
