@@ -22,3 +22,7 @@ Route::get('/login', function(){
 Route::get('historico', function (){
     return view('historico');
 });
+
+Route::get('subscribe', function(){
+    return view('subscribe');
+});
