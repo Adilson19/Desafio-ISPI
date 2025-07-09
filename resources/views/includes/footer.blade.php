@@ -3,12 +3,9 @@
 		<div class="container">
 			<div class="row">
 					<div class="col-sm-3 footer_block footer_block__2_1">
-
 <div class="footer_item footer_item__links">
 									<h3>Main menu</h3>
-
 									<ul>
-
 											<li>
 												<a href="https://theme642-kardone-free.myshopify.com/">Home</a>
 											</li>
