@@ -12,7 +12,7 @@
     <div class="container">
         <aside>
             <div>
-                @include('includes.header');
+                @include('includes.header')
                 </div>
             </aside>
         <section>
