@@ -10,31 +10,6 @@
 </head>
 <body>
     <div class="container">
-        <div class="header_row__1">
-		<div class="page_container">
-			<div class="container">
-				<div class="header_left">
-						<ul class="header_links">
-							<li>
-								<a href="https://theme642-kardone-free.myshopify.com/account"><i class="fa fa-user" aria-hidden="true"></i>Minha Conta</a>
-							</li>
-						</ul>
-				</div>
-				<div class="header_right">
-						<div class="currency_selector">
-							<div class="currency_selector__wrap">
-								<div id="currency_active">USD</div>
-								<ul id="currency_selector">
-									<li data-value="USD" id="currency_selected" class="currency_selector__item">USD</li>
-											<li data-value="EUR" class="currency_selector__item">EUR</li>
-											<li data-value="GBP" class="currency_selector__item">GBP</li>
-								</ul>
-							</div>
-						</div>
-            </div>
-        </div>
-    </div>
-</div>
         <aside>
             <div>
                 @include('includes.header');
