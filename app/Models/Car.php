@@ -17,4 +17,8 @@ class Car extends Model
         'mileage',
         'engine'
     ];
+    public function car(): BelongsTo
+    {
+        return $this->belongsTo(Car_owners::class, 'car_id');
+    }
 }
