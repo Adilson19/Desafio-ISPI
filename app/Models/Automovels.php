@@ -7,5 +7,18 @@ use Illuminate\Database\Eloquent\Model;
 
 class Automovels extends Model
 {
-    use HasFactory;
+    use HasFactory, SoftDeletes;
+
+    protected $fillable = [
+        'brand',
+        'model',
+        'color',
+        'cylinder',
+        'numberSeats',
+        'yearManufacture',
+        'dailyValue',
+        'availability'
+    ];
+
+    protected $dates = ['deleted_at'];
 }
