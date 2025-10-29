@@ -7,5 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Reservas extends Model
 {
-    use HasFactory;
+    use HasFactory, SoftDeletes;
+
+    protected $fillable = [
+        'date',
+        'name'
+    ];
+
+    protected $dates = ['deleted_at'];
 }
