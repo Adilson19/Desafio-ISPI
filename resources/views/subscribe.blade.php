@@ -7,12 +7,16 @@
     <title>Subscribe</title>
 </head>
 <body>
-    <label>Digite o seu nome:</label>
+    <label>Faça a Sua Inscrição</label>
         <form bindsubmit="" method="">
+            <label for="">Nome: </label>
             <input type="text" placeholder="Digite o seu nome" class="name-input"><br/>
+            <label for="">E-mail: </label>
             <input type="text" placeholder="Digite o seu email" class="email-input"><br/>
+            <label for="">Senha: </label>
             <input type="password" placeholder="Digite a sua senha" class="password-input"><br/>
-            <input type="date"/>
+            <label for="">Data de Nascimento</label>
+            <input type="date"/><br><br>
             <button type="submit">Enviar</button>
         </form>
 </body>
