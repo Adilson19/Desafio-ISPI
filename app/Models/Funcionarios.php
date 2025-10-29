@@ -7,5 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Funcionarios extends Model
 {
-    use HasFactory;
+    use HasFactory, SoftDeletes;
+
+    protected $fillable = [
+        'nivel'
+    ];
+
+    protected $dates = ['deleted_at'];
 }
