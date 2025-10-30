@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UsuariosController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,7 +23,7 @@ Route::get('/login', function(){
 Route::get('historico', function (){
     return view('historico');
 });
-
+Route::resource('usuarios', UsuariosController::class);
 Route::get('subscribe', function(){
     return view('subscribe');
 });
