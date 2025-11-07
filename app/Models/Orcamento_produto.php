@@ -5,13 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Funcionarios extends Model
+class Orcamento_produto extends Model
 {
     use HasFactory, SoftDeletes;
-
     protected $fillable = [
-        'nivel'
+        'id_orcamento_produto',
+        'qtd',
+        'vl_unitario',
+        'vl_total',
     ];
-
-    protected $dates = ['deleted_at'];
 }

@@ -11,14 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('ordem_servicos', function (Blueprint $table) {
+        Schema::create('orcamentos', function (Blueprint $table) {
             $table->id();
-            $table->integer('id_ordem_servico')->nullable()->unique();
-            $table->float('valor_total');
-            $table->date('data_inicio');
-            $table->string('observacao');
-            $table->date('data_encerramento');
-            $table->boolean('status_os');
+            $table->integer('id_orcamento')->nullable()->unique();
+            $table->float('valor');
+            $table->integer('status');
             $table->timestamps();
         });
     }
@@ -28,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('ordem_servicos');
+        Schema::dropIfExists('orcamentos');
     }
 };

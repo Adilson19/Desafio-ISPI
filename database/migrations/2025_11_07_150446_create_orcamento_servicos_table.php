@@ -11,8 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('administradors', function (Blueprint $table) {
+        Schema::create('orcamento_servicos', function (Blueprint $table) {
             $table->id();
+            $table->integer('id_orcamento_servico')->nullable()->unique();
+            $table->float('qtd');
+            $table->float('vl_unitario');
+            $table->float('vl_total');
             $table->timestamps();
         });
     }
@@ -22,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('administradors');
+        Schema::dropIfExists('orcamento_servicos');
     }
 };
