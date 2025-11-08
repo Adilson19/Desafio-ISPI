@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Produto extends Model
 {
     use HasFactory, SoftDeletes;
+    
     protected $fillable = [
         'id_produto',
         'nome_produto',

@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Service extends Model
 {
     use HasFactory, SoftDeletes;
+    
     protected $fillable = [
         'id_service',
         'descricao',

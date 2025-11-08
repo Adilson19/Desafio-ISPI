@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Fl_Pagamento extends Model
 {
     use HasFactory,SoftDeletes;
+    
     protected $fillable = [
         'id_pagamento',
         'valor',
