@@ -24,6 +24,10 @@ Route::get('historico', function (){
     return view('historico');
 });
 Route::resource('usuarios', UsuariosController::class);
+Route::resource('funcionarios', 'App\Http\Controllers\FuncionarioController');
+Route::resource('cidades', 'App\Http\Controllers\CidadeController');
+Route::resource('carros', 'App\Http\Controllers\CarroController');
+Route::resource('produtos', 'App\Http\Controllers\ProdutoController');
 Route::get('subscribe', function(){
     return view('subscribe');
 });
