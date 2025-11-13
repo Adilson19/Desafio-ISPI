@@ -17,11 +17,11 @@ return new class extends Migration
             $table->float('valor');
             $table->integer('num_parcela');
             $table->date('data_pagamento');
-            $table->date('data_pagamento');
+            $table->date('data_processamento');
             $table->date('data_hora_criacao');
             $table->string('bandeira');
             $table->string('num_cartao');
-            $table->enum('forma_pagamento')->values(['credito', 'debito', 'dinheiro', 'pix']);
+            $table->enum('forma_pagamento', ['credito', 'debito', 'boleto', 'pix']);
             $table->timestamps();
         });
     }
